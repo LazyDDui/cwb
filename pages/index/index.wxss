@@ -1,0 +1,28 @@
+/* pages/index/index.wxss */
+.swit image{
+  width: 100%;
+  height: 100%;
+}
+.po {
+  position: absolute;
+  right: 0;
+  transform: translate(-30rpx,-60rpx);
+  color: #ffffffb2;
+}
+.three {
+  display: flex;
+}
+.text {
+  margin-top: 12rpx;
+  font-size: x-small;
+  width: 85%;
+  height: 45rpx;
+  overflow: hidden;
+  animation-iteration-count: infinite;
+  animation-name: inn;
+
+}
+.text text {
+  text-align: center;
+}
+

@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "商城",
+      "iconPath": "./images/商城.png",
+      "selectedIconPath": "./images/商城2.png"
+    },
+      {
+      "pagePath": "pages/index/index",
+      "text": "商城",
+      "iconPath": "./images/商城.png",
+      "selectedIconPath": "./images/商城2.png"
+    }
+  ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

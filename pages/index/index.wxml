@@ -1,0 +1,24 @@
+<!--pages/index/index.wxml-->
+<!-- <text>pages/index/index.wxml</text> -->
+<view class="page__bd">
+  <mp-searchbar bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+</view>
+<view>
+  <swiper class="swit" bindchange="sic" autoplay="true">
+    <swiper-item  wx:for="{{list}}">
+      <image src="{{item.src}}"></image>
+    </swiper-item>
+  </swiper>
+  <view class="po">{{sicY+1}}/{{list.length}}</view>
+</view>
+<view class="three">
+  <mp-icon icon="volume-down" color="red" ></mp-icon>
+  <view class="text">
+    <view bindtap="showlog">
+      <view class="inn" animation="{{animationData}}">
+        <view>微信支付已开通，小程序团队！感谢大家关注！</view>
+        <view>为了保障您的权益，请在小程序内进行支付。</view>
+      </view>
+    </view>
+  </view>
+</view>
